@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Q3 solution</title>
+</head>
+<body>
+<h3>YOU ARE HERE</h3>
+<script type ="text/javascript">
+let a= prompt("what is your name");
+
+
+document.write("Hey Welcome " + a);
+
+var myDate = new Date(); 
+		var myDay = myDate.getDay(); 
+var hours = myDate.getHours(); 
+		var ampm = hours >= 12 ? 'PM' : 'AM'; 
+		hours = hours % 12; 
+		hours = hours ? hours : 12; 
+		var minutes = myDate.getMinutes(); 
+		minutes = minutes < 10 ? '0' + minutes : minutes; 
+		var myTime = hours + " " + ampm + " : " + minutes + 
+			" : " + myDate.getSeconds(); 
+		document.write("\t time : " + myTime); 
+    
+
+
+
+
+
+</script>
+</body>
+</html>
+
+
